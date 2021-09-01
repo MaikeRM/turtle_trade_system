@@ -3,6 +3,8 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import yfinance as yf
 from copy import deepcopy, copy
+import turtlesystem as TurtleSystem
+from functions import getStratStats
 
 # Sample 10 tickers from S&P 500
 url = 'https://en.wikipedia.org/wiki/List_of_S%26P_500_companies'
